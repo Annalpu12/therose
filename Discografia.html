@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discografia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image:url(https://i.pinimg.com/originals/15/55/12/155512299a145dc08c4c5695c166ff3a.gif);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.card {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+}
+
+.card .content {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 300;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;  
+    text-align: center;  
+    padding: 20px;
+    background: #fff;
+}
+
+.card .content .img {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.card .content .img img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card .content span {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to right, #C3F, #FFF);
+    transform: rotate(-35deg);
+    top: -80px;
+    left: -125px;
+}
+
+.card .content h4 {
+    font-size: 18px;
+    color: #1a1919;
+    margin-bottom: 5px;
+}
+.card .content p {
+    font-size: 13px;
+    color: #1a161f;
+    margin-top: 10px;
+}
+.card .links {
+    position: absolute;
+    z-index: 90;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);
+    padding: 20px;
+    align-items: center;
+    right: 10px;
+    top: 15px;
+    transition: .5s;
+}
+.card:hover .links {
+    right: -50px;
+    border-radius: 0 10px 10px 0;
+}
+.card .links a {
+    font-size: 20px;
+    color: #646069;
+}
+.card .links a:nth-child(4):hover {
+    color: #FE0000;
+}
+.card .content h6 {
+	color: #60C;
+}
+a{
+	display: block;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight : 400;
+	boreder-radius: 10px;
+	margin: 15px 50px;
+	padding: 15px 60px;
+	background-color: #999;
+	color: #000;
+	text-decoration: none;
+	right: auto;
+}
+</style>
+
+<body>
+
+ 
+<div class="card">
+  <div class="content">
+            <span></span>
+            <div class="img">
+                <img src="imagenes/void1.png" alt="">
+            </div>
+            <h4>Mini album Void</h4>
+            <h6>16-Abril-2018</h6>
+            <p> <Ul>★Candy (so good)</Ul>
+                <Ul>★BABY</Ul>
+                <Ul>★I.L.Y.</Ul>
+                <Ul>★Sorry</Ul>
+                <Ul>★ 좋았는데 (Like We Used To)</Ul>
+                <Ul>★ BABY (Inst.)</Ul>
+                <Ul>★Sorry (Inst.)</Ul>
+                <Ul>★I.L.Y. (Inst.)</Ul></p>
+             </div>
+          <div class="links">
+          <a href="https://youtu.be/8TbYQC4SsAw"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+</div>
+    
+<div class="card">
+  <div class="content">
+   <span></span>
+   <div class="img">
+   <img src="imagenes/dawn.png" alt="">
+    </div><h4>Mini album DAWN</h4>
+    <h6>04-Octubre-2018</h6>        
+ <p><Ul>★ I Don`t Know You</Ul>
+    <Ul>★ She`s In The Rain</Ul>
+    <Ul>★ Take Me Down</Ul>
+    <Ul>★ 불면증 (Insomnia)</Ul>
+    <Ul>★ She`s In The Rain (Inst.)</Ul></p>
+    </div>
+    <div class="links">
+    <a href="https://youtu.be/ob3WZYoB-Jc"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    </div>
+    
+    
+<div class="card">
+   <div class="content">
+   <span></span>
+   <div class="img">
+                <img src="imagenes/heal.png" alt="">
+    </div>        
+    <h4>Album HEAL </h4>
+    <h6>07-Octubre-2022</h6>
+    <p><Ul>★ Definition of ugly is</Ul>       
+    <Ul>★ Childhood</Ul>
+    <Ul>★ Shift</Ul>        
+    <Ul>★ Cure</Ul>
+    <Ul>★ See-Saw</Ul>
+    <Ul>★ Time</Ul>
+    <Ul>★ Yes (Feat. James Reid)</Ul>
+    <Ul>★ Sour</Ul></p>
+     </div>        
+      <div class="links">   
+      <a href="https://youtu.be/qP9BEik_7CI"><i class="fa-brands fa-youtube"></i></a>
+     </div>
+</div>
+
+<div class="card">
+    <div class="content">
+    <span></span>
+    <div class="img">
+                <img src="imagenes/beauty.png" alt="">
+            </div>
+    <h4>Single Beauty and the Beast</h4>
+    <h6>29-Diciembre-2021</h6>
+     <p><Ul>★ 미녀와 야수 (Beauty and the Beast)</Ul>
+     <Ul>★ 미녀와 야수 (Beauty and the Beast) (Inst.)</Ul></p>
+     <p><a href="Discografia1.html">Siguiente pag.</a></p>
+     </div>
+     <div class="links">
+     <a href="https://youtu.be/cfMewmG8atU"><i class="fa-brands fa-youtube"></i></a>
+     </div>
+</div>
+
+</body>
+</html>
